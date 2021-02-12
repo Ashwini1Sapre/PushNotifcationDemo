@@ -6,14 +6,27 @@
 //
 
 import UIKit
-
+import Firebase
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
+    
+    
+    
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        let pushManager = PushNotificationManager(userID: "urrently_logged_in_userid")
+        pushManager.registerForPushNotification()
+    
+        FirebaseApp.configure()
+        
+       // FirebaseApp.configure()
+
+        let sender = PushNotificationSender()
+        sender.sendPushNotification(to: "token", title: "Notification title", body: "Notification body")
+        
         return true
     }
 
