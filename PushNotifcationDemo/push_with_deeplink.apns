@@ -1,0 +1,10 @@
+{
+   "Simulator Target Bundle": "knoxpo.iCloudedemo",
+   "aps" : {
+      "alert" : {
+         "title": "SwiftUI Countries",
+         "body" : "🇦🇩Tap to see Andorra's flag"
+      },
+      "country" : "AND"
+   }
+}

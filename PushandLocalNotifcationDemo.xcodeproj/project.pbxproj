@@ -23,6 +23,7 @@
 		605B644025D69989007B4242 /* applelogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 605B643F25D69989007B4242 /* applelogo.png */; };
 		605B644525D69D00007B4242 /* LocalNotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605B644425D69D00007B4242 /* LocalNotificationView.swift */; };
 		605B644A25D6A62D007B4242 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 605B644925D6A62D007B4242 /* 1.png */; };
+		605B645A25D6BCAE007B4242 /* push_with_deeplink.apns in Resources */ = {isa = PBXBuildFile; fileRef = 605B645925D6BCAE007B4242 /* push_with_deeplink.apns */; };
 		A2E1AA6A621127747EE83739 /* Pods_PushNotifcationDemo_PushNotifcationDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C88D3CD8484D4CD35DA1167 /* Pods_PushNotifcationDemo_PushNotifcationDemoUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -70,6 +71,7 @@
 		605B643F25D69989007B4242 /* applelogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = applelogo.png; sourceTree = "<group>"; };
 		605B644425D69D00007B4242 /* LocalNotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationView.swift; sourceTree = "<group>"; };
 		605B644925D6A62D007B4242 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		605B645925D6BCAE007B4242 /* push_with_deeplink.apns */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = push_with_deeplink.apns; sourceTree = "<group>"; };
 		61D9B70CC15E5324DD0E318B /* Pods-PushNotifcationDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PushNotifcationDemoTests.release.xcconfig"; path = "Target Support Files/Pods-PushNotifcationDemoTests/Pods-PushNotifcationDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		C45C46D10987CC78F9656CA0 /* Pods-PushNotifcationDemo-PushNotifcationDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PushNotifcationDemo-PushNotifcationDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-PushNotifcationDemo-PushNotifcationDemoUITests/Pods-PushNotifcationDemo-PushNotifcationDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		CDBD45F1475B64603DFD331F /* Pods_PushNotifcationDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PushNotifcationDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -163,6 +165,7 @@
 				605B643F25D69989007B4242 /* applelogo.png */,
 				605B636E25D64BFA007B4242 /* Info.plist */,
 				605B644925D6A62D007B4242 /* 1.png */,
+				605B645925D6BCAE007B4242 /* push_with_deeplink.apns */,
 				605B636825D64BFA007B4242 /* Preview Content */,
 				605B643A25D68898007B4242 /* PushNotificationSender.swift */,
 				605B644425D69D00007B4242 /* LocalNotificationView.swift */,
@@ -309,6 +312,7 @@
 				605B636A25D64BFA007B4242 /* Preview Assets.xcassets in Resources */,
 				605B644A25D6A62D007B4242 /* 1.png in Resources */,
 				605B643025D67D41007B4242 /* GoogleService-Info.plist in Resources */,
+				605B645A25D6BCAE007B4242 /* push_with_deeplink.apns in Resources */,
 				605B636725D64BFA007B4242 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
